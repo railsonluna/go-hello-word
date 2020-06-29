@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  go:
+    build: ./
+    command: bash -c "go run src/hello/hello.go"
+
+
